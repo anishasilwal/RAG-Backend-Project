@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
 
+from app.database import SessionLocal
 from app.models import InterviewBooking
 
 
@@ -9,8 +10,6 @@ def save_booking(
     interview_date: str,
     interview_time: str,
 ) -> InterviewBooking:
-    from app.database import SessionLocal
-
     db: Session = SessionLocal()
 
     try:
