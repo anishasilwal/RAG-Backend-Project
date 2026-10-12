@@ -1,0 +1,4 @@
+﻿Artificial Intelligence is a field of computer science.
+Machine learning allows computers to learn from data.
+Retrieval Augmented Generation combines retrieval with language models.
+FastAPI is a Python framework for building APIs.
